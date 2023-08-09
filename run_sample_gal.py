@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # Environment
     # parser.add_argument("--num_workers", default=os.cpu_count()//2, type=int)
     parser.add_argument("--num_workers", default=1, type=int)
-    parser.add_argument("--mscoco_root", default='./RadioGalaxyNET_V3/', type=str, help="Path to MSCOCO")
+    parser.add_argument("--mscoco_root", default='./dataset/', type=str, help="Path to MSCOCO")
     parser.add_argument("--chainer_eval_set", default="train", type=str) #"val" "train"
 
     parser.add_argument("--num_classes", default=4, type=int)
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     parser.add_argument("--sem_seg_bg_thres", default=0.25)
 
     # Output Path
-    parser.add_argument("--work_space", default="outputs_gal/v3/", type=str) # set your path
+    parser.add_argument("--work_space", default="outputs_gal/v1/", type=str) # set your path
     parser.add_argument("--log_name", default="sample_train_eval", type=str)
     parser.add_argument("--cam_weights_name", default="res50_cam.pth", type=str)
     parser.add_argument("--cam_weights_name_last", default="res50_cam_last.pth", type=str)
