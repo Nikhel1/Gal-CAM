@@ -1,6 +1,6 @@
 cython
-torch=1.9.1
-torchvision=0.10.1
+torch>=1.9.1
+torchvision>=0.10.1
 git+https://github.com/cocodataset/panopticapi.git#egg=panopticapi
 scipy
 astropy
