@@ -2,10 +2,9 @@
 The official code of PASA 2023 paper (Deep Learning for Morphological Identification of Extended Radio Galaxies using Weak Labels). 
 
 ## Prerequisite
-- Python 3.6, PyTorch 1.9, and others in environment.yml
-- You can create the environment from environment.yml file
+- Python 3.6, PyTorch 1.9, and others in requirements.txt
 ```
-conda env create -f environment.yml
+pip install -r requirements.txt
 ```
 
 ## Usage
