@@ -1,8 +1,9 @@
 # Gal-CAM
-The official code of PASA 2023 paper (Deep Learning for Morphological Identification of Extended Radio Galaxies using Weak Labels). 
+The official code of PASA 2023 [paper](http://arxiv.org/abs/2308.05166) (Deep Learning for Morphological Identification of Extended Radio Galaxies using Weak Labels). 
 
 ## Prerequisite
-- Python 3.6, PyTorch 1.9, and others in requirements.txt
+- Python 3.6, PyTorch 1.9.1, CUDA 10.2.89 and others in requirements.txt
+- Later version may also work but not verified.
 ```
 pip install -r requirements.txt
 ```
