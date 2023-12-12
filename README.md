@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 ## Usage
 ### Step 1. Prepare dataset.
-- Download link for the dataset will be available soon, in the MS COCO format.
+- Download [link](https://doi.org/10.25919/btk3-vx79) for the dataset, in the MS COCO format.
 - Generate mask from annotations (annToMask.py file in ./mscoco/). The annotation files will be available in dataset.
 - MS COCO image-level labels are present in ./mscoco/
 ### Step 2. Train ReCAM and generate seeds.
